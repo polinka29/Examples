@@ -1,4 +1,5 @@
-﻿Console.Write("Введите имя пользователя: ");
+﻿//Задача на определении текста заданного смыслом
+Console.Write("Введите имя пользователя: ");
 string username = Console.ReadLine();
 
 if(username.ToLower() == "маша")
