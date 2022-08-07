@@ -12,3 +12,10 @@ int Max(int arg1, int arg2, int arg3)
 int [] array = {19, 27, 38, 4, 55, 6, 79, 80, 91};
 array[0] = 12;
 Console.WriteLine(array[4]);
+
+int max = Max( //это вывод вместо 1 строчки типо-int max = Max(Max(a1, b1, c1),Max(a2, b2, c2),Max(a3, b3, c3));
+    Max(array[0], array[1], array[2]),
+    Max(array[3], array[4], array[5]),
+    Max(array[6], array[7], array[8])
+);
+Console.WriteLine(max);
